@@ -58,6 +58,6 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testIndicies(){
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.indices(5,3),125);
+		assertEquals(125.0, calc.indices(5,3), 0.0001);
 	}
 }
